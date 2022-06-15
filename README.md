@@ -34,7 +34,7 @@ As a team of four, our approach to this was to split and work on different solut
 Some ideas that came to mind are:
 - Make a neural network,
 - Use linear programming,
-- Use multi-objective optimization through Pyomo. The objective function is comprised of min GHG emission and max nutrition.
+- Use multi-objective optimization through Pyomo. The objective function is comprised of min GHG emission and max nutrition (see `Constrained_Optimizaton_Meal_Ran.ipynb`).
 - Find a simple algorithm to benchmark the others:
     - We came up with a basic algorithm, that aims to maximise one nutrient at a time, until all nutrient goals are reached.
     - To do this, we first calculate:
