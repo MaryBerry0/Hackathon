@@ -48,6 +48,7 @@ Some ideas that came to mind are:
         - Fill the menu again with the best aliment for that new nutriment.
         - Rinse and repeat!
     - This gives us 29 different menus, that we can then sort by CO2 emissions, to give us a "best" menu.
+    - All the code can be found in `optimal_diet.ipynb`.
     - This approach could be greatly improved, by:
         - finding a better heuristic for the target, rather than "nutriment we need the most"
         - taking into account the other nutritional values of the food, asides from where it performs best. Maybe a type of food is not the best anywhere but gives the best overall nutrition.
