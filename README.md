@@ -35,3 +35,4 @@ Some ideas that came to mind are:
 - Make a neural network,
 - Use linear programming,
 - Find a simple algorithm to benchmark the others.
+- Use multi-objective optimization through Pyomo. The objective function is comprised of min GHG emission and max nutrition.
