@@ -20,15 +20,11 @@
 18,Panto_Acid_(mg),Pantothenic Acid
 19,Vit_B6_(mg),Vitamin B6
 20,Folate_Tot_(µg),Folate/Folic Acid
-21,Folic_Acid_(µg),Folate/Folic Acid
-22,Food_Folate_(µg),Folate/Folic Acid
-23,Folate_DFE_(µg),Folate/Folic Acid
 24,Choline_Tot_(mg),Choline
 25,Vit_B12_(µg),Vitamin B12
 26,Vit_A_(IU),Vitamin A
 27,Vit_E_(mg),Vitamin E
 28,Vit_D_(µg),Vitamin D
-29,Vit_D_(IU),Vitamin D
 30,Vit_K_(µg),Vitamin K
 31,FA_Sat_(g),Saturated fat
 32,Cholestrl_(mg),Cholesterol
