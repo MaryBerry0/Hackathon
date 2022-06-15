@@ -18,9 +18,21 @@ For all the code for these two exercices, refer to `emissions_agriculture.ipynb`
 ## Question 3
 This was the tough question of the hackathon: with all the data we had, we needed to find an optimal diet such that all daily nutritional goals are reached, all while emitting as little GHG as possible.
 
+This is possible, thanks to the three data sets we had:
+1. `Agriculture_Dataset_text.csv`, containing how much of each aliment is produced, and how much GHG it emits.
+2. `ABBREV_2.csv`, containing the nutritional values of different aliments.
+3. `daily_nutrients.xlsx`, with the nutrients needed per day.
+
+To join all of this together, we have two mapping files:
+1. `mapping.csv`, to map files (1) and (2), thus associating production and GHG emission to nutritional value.
+2. `abbrev_nutrient_map.csv`, to map files (2) and (3), thus allowing us to know how much of each food must be eaten to reach our nutritional goal.
+
+All of this together allows us to link pollution to nutrition.
+
 As a team of four, our approach to this was to split and work on different solutions, to explore possibilities.
 
 Some ideas that came to mind are:
 - Make a neural network,
 - Use linear programming,
 - Find a simple algorithm to benchmark the others.
+- Use multi-objective optimization through Pyomo. The objective function is comprised of min GHG emission and max nutrition.
