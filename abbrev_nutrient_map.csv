@@ -1,0 +1,34 @@
+,abbrev,nutrient
+0,Protein_(g),Protein
+1,Lipid_Tot_(g),Fat
+2,Carbohydrt_(g),Total carbohydrate
+3,Fiber_TD_(g),Dietary Fiber
+4,Calcium_(mg),Calcium
+5,Iron_(mg),Iron
+6,Magnesium_(mg),Magnesium
+7,Phosphorus_(mg),Phosphorus
+8,Potassium_(mg),Potassium
+9,Sodium_(mg),Sodium
+10,Zinc_(mg),Zinc
+11,Copper_(mg),Copper
+12,Manganese_(mg),Manganese
+13,Selenium_(µg),Selenium
+14,Vit_C_(mg),Vitamin C
+15,Thiamin_(mg),Thiamin
+16,Riboflavin_(mg),Riboflavin
+17,Niacin_(mg),Niacin
+18,Panto_Acid_(mg),Pantothenic Acid
+19,Vit_B6_(mg),Vitamin B6
+20,Folate_Tot_(µg),Folate/Folic Acid
+21,Folic_Acid_(µg),Folate/Folic Acid
+22,Food_Folate_(µg),Folate/Folic Acid
+23,Folate_DFE_(µg),Folate/Folic Acid
+24,Choline_Tot_(mg),Choline
+25,Vit_B12_(µg),Vitamin B12
+26,Vit_A_(IU),Vitamin A
+27,Vit_E_(mg),Vitamin E
+28,Vit_D_(µg),Vitamin D
+29,Vit_D_(IU),Vitamin D
+30,Vit_K_(µg),Vitamin K
+31,FA_Sat_(g),Saturated fat
+32,Cholestrl_(mg),Cholesterol
