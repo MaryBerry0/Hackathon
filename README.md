@@ -34,5 +34,21 @@ As a team of four, our approach to this was to split and work on different solut
 Some ideas that came to mind are:
 - Make a neural network,
 - Use linear programming,
-- Find a simple algorithm to benchmark the others.
 - Use multi-objective optimization through Pyomo. The objective function is comprised of min GHG emission and max nutrition.
+- Find a simple algorithm to benchmark the others:
+    - We came up with a basic algorithm, that aims to maximise one nutrient at a time, until all nutrient goals are reached.
+    - To do this, we first calculate:
+        1. The emissions per quantity of food produced for each aliment,
+        2. The nutrients per gram of food for each aliment,
+        3. The emissions per nutrient for each aliment.
+    - This gives us access to the best (least polluting) source of each nutriment.
+    - We can then loop through every nutriment, and start creating a "menu":
+        - For that nutriment, add as much of the "optimal food" as needed to fulfill the need for that nutriment.
+        - Look for the next nutriment that is the most wanted.
+        - Fill the menu again with the best aliment for that new nutriment.
+        - Rinse and repeat!
+    - This gives us 29 different menus, that we can then sort by CO2 emissions, to give us a "best" menu.
+    - This approach could be greatly improved, by:
+        - finding a better heuristic for the target, rather than "nutriment we need the most"
+        - taking into account the other nutritional values of the food, asides from where it performs best. Maybe a type of food is not the best anywhere but gives the best overall nutrition.
+        - simply using a more complex system, that allows for more optimal results! This was intended to be a basic algorithm to benchmark the others, and doesn't in any way provide a complete solution.
